@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Leandro Alves",
+    "email": "leandroportnoy@gmail.com"
+  },
+  "name": "plans",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "LAS Technology",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly src/plansLimitView.ts",
+    "test":"jest --no-cache"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.5"
+  }
+}
